@@ -23,15 +23,15 @@ namespace Owin
 
         public static IAppBuilder UseLinkedInAuthentication(
             this IAppBuilder app,
-            string APIKey,
-            string SecretKey)
+            string apiKey,
+            string secretKey)
         {
             return UseLinkedInAuthentication(
                 app,
                 new LinkedInAuthenticationOptions
                 {
-                    AppId = APIKey,
-                    AppSecret = SecretKey
+                    AppId = apiKey,
+                    AppSecret = secretKey
                 });
         }
     }
