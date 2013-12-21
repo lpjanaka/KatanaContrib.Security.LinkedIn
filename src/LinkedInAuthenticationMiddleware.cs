@@ -1,14 +1,15 @@
 ﻿using System;
-using System.Diagnostics.CodeAnalysis;
 using System.Globalization;
 using System.Net.Http;
+using Microsoft.Owin;
 using Microsoft.Owin.Logging;
+using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.DataHandler;
 using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Infrastructure;
 using Owin;
 
-namespace Microsoft.Owin.Security.LinkedIn
+namespace OwinContrib.Security.LinkedIn
 {   
     public class LinkedInAuthenticationMiddleware : AuthenticationMiddleware<LinkedInAuthenticationOptions>
     {

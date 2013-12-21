@@ -1,12 +1,12 @@
 using System;
 using System.Globalization;
 using System.Security.Claims;
+using Microsoft.Owin;
+using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Provider;
 using Newtonsoft.Json.Linq;
-using System.Xml;
-using System.Xml.Linq;
 
-namespace Microsoft.Owin.Security.LinkedIn
+namespace OwinContrib.Security.LinkedIn
 {
     public class LinkedInAuthenticatedContext : BaseContext
     {

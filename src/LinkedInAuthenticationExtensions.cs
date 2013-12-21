@@ -1,8 +1,7 @@
 using System;
-using Microsoft.Owin.Security;
-using Microsoft.Owin.Security.LinkedIn;
+using Owin;
 
-namespace Owin
+namespace OwinContrib.Security.LinkedIn
 {    
     public static class LinkedInAuthenticationExtensions
     {       

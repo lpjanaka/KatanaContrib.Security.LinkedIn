@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics.CodeAnalysis;
 using System.Net.Http;
+using Microsoft.Owin;
+using Microsoft.Owin.Security;
+using Microsoft.Owin.Security.LinkedIn;
 
-namespace Microsoft.Owin.Security.LinkedIn
+namespace OwinContrib.Security.LinkedIn
 {
     public class LinkedInAuthenticationOptions : AuthenticationOptions
     {
@@ -34,6 +36,6 @@ namespace Microsoft.Owin.Security.LinkedIn
         public string SignInAsAuthenticationType { get; set; }
         public ILinkedInAuthenticationProvider Provider { get; set; }
         public ISecureDataFormat<AuthenticationProperties> StateDataFormat { get; set; }
-        public IList<string> Scope { get; private set; }
+        public IList<string> Scope { get; set; }
     }
 }

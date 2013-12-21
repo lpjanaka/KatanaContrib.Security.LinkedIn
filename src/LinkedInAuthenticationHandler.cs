@@ -1,19 +1,18 @@
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Runtime.InteropServices;
 using System.Security.Claims;
 using System.Threading.Tasks;
-using Microsoft.Owin.Helpers;
+using System.Xml;
+using Microsoft.Owin;
 using Microsoft.Owin.Infrastructure;
 using Microsoft.Owin.Logging;
+using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Infrastructure;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using Newtonsoft.Json.Converters;
-using System.Xml;
 
-namespace Microsoft.Owin.Security.LinkedIn
+namespace OwinContrib.Security.LinkedIn
 {
     internal class LinkedInAuthenticationHandler : AuthenticationHandler<LinkedInAuthenticationOptions>
     {
