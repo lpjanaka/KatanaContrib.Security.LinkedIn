@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwinContrib.Security.LinkedIn", "src\OwinContrib.Security.LinkedIn.csproj", "{02A64369-65EA-4821-ABCC-81947CD237FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatanaContrib.Security.LinkedIn", "src\KatanaContrib.Security.LinkedIn.csproj", "{02A64369-65EA-4821-ABCC-81947CD237FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

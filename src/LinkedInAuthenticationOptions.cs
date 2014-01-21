@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
 using System.Net.Http;
+using KatanaContrib.Security.LinkedIn.Provider;
 using Microsoft.Owin;
 using Microsoft.Owin.Security;
-using Microsoft.Owin.Security.LinkedIn;
 
-namespace OwinContrib.Security.LinkedIn
+namespace KatanaContrib.Security.LinkedIn
 {
     public class LinkedInAuthenticationOptions : AuthenticationOptions
     {

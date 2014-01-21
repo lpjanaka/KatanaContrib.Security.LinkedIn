@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Net.Http;
+using KatanaContrib.Security.LinkedIn.Provider;
 using Microsoft.Owin;
 using Microsoft.Owin.Logging;
 using Microsoft.Owin.Security;
@@ -9,7 +10,7 @@ using Microsoft.Owin.Security.DataProtection;
 using Microsoft.Owin.Security.Infrastructure;
 using Owin;
 
-namespace OwinContrib.Security.LinkedIn
+namespace KatanaContrib.Security.LinkedIn
 {   
     public class LinkedInAuthenticationMiddleware : AuthenticationMiddleware<LinkedInAuthenticationOptions>
     {

@@ -1,7 +1,7 @@
 using System;
 using Owin;
 
-namespace OwinContrib.Security.LinkedIn
+namespace KatanaContrib.Security.LinkedIn
 {    
     public static class LinkedInAuthenticationExtensions
     {       

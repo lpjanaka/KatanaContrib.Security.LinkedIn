@@ -6,7 +6,7 @@ using Microsoft.Owin.Security;
 using Microsoft.Owin.Security.Provider;
 using Newtonsoft.Json.Linq;
 
-namespace OwinContrib.Security.LinkedIn
+namespace KatanaContrib.Security.LinkedIn.Provider
 {
     public class LinkedInAuthenticatedContext : BaseContext
     {

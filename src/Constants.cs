@@ -1,5 +1,5 @@
 
-namespace Microsoft.Owin.Security.LinkedIn
+namespace KatanaContrib.Security.LinkedIn
 {
     internal static class Constants
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{02A64369-65EA-4821-ABCC-81947CD237FB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>OwinContrib.Security.LinkedIn</RootNamespace>
-    <AssemblyName>OwinContrib.Security.LinkedIn</AssemblyName>
+    <RootNamespace>KatanaContrib.Security.LinkedIn</RootNamespace>
+    <AssemblyName>KatanaContrib.Security.LinkedIn</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

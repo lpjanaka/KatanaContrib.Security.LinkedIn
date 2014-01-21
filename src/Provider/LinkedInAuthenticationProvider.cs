@@ -1,7 +1,7 @@
 using System;
 using System.Threading.Tasks;
 
-namespace OwinContrib.Security.LinkedIn
+namespace KatanaContrib.Security.LinkedIn.Provider
 {
     public class LinkedInAuthenticationProvider : ILinkedInAuthenticationProvider
     {

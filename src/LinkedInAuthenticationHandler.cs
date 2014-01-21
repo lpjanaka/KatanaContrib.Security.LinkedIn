@@ -4,6 +4,7 @@ using System.Net.Http;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using System.Xml;
+using KatanaContrib.Security.LinkedIn.Provider;
 using Microsoft.Owin;
 using Microsoft.Owin.Infrastructure;
 using Microsoft.Owin.Logging;
@@ -12,7 +13,7 @@ using Microsoft.Owin.Security.Infrastructure;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace OwinContrib.Security.LinkedIn
+namespace KatanaContrib.Security.LinkedIn
 {
     internal class LinkedInAuthenticationHandler : AuthenticationHandler<LinkedInAuthenticationOptions>
     {
