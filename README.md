@@ -1,7 +1,7 @@
 KatanaContrib.Security.Linkedin
 =============================
 
-**KatanaContrib.Security.LinkedIn** provides a owin/[katana](http://katanaproject.codeplex.com/) middleware that supports the LinkedIn authentication flow. 
+**KatanaContrib.Security.LinkedIn** provides a [Katana](http://katanaproject.codeplex.com/) middleware that supports the LinkedIn authentication flow. 
 In order to add it to your project or solution run the `Install-Package KatanaContrib.Security.LinkedIn` command from the NuGet Package Manager console in Visual Studio. 
 
 The KatanaContrib.Security.LinkedIn was designed and implemented similar to [Microsoft.Owin.Security.Facebook](https://www.nuget.org/packages/Microsoft.Owin.Security.Facebook) and [Microsoft.Owin.Security.Twitter](https://www.nuget.org/packages/Microsoft.Owin.Security.Twitter) this allows you to use it the same way as the security middlewares provided by Microsoft.  
@@ -9,7 +9,7 @@ How to use in MVC5 project:
 --------
 A couple of actions will need to be done under the App_Start folder in the Startup.Auth.cs file :
  
-* Add namespace  `using OwinContrib.Security.LinkedIn;`
+* Add namespace  `using KatanaContrib.Security.LinkedIn;`
 * In the `ConfigureAuth` call the corresponding *apps* extention method and pass your params:
 ```csharp
 public void ConfigureAuth(IAppBuilder app)
@@ -43,4 +43,4 @@ Contribution
 -------------
 Any pull request will be very appreciated!
 
-Got questions or suggestions? Feel free to create and issue or contact [@dkillewo](https://twitter.com/dkillewo) on twitter.
+Got questions or suggestions? Feel free to create and issue or contact [@KatanaContrib](https://twitter.com/katanacontrib) / [@dkillewo](https://twitter.com/dkillewo) on twitter.
