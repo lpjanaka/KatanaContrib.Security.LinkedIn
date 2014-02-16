@@ -44,3 +44,7 @@ Contribution
 Any pull request will be very appreciated!
 
 Got questions or suggestions? Feel free to create and issue or contact [@KatanaContrib](https://twitter.com/katanacontrib) / [@dkillewo](https://twitter.com/dkillewo) on twitter.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/KatanaContrib/katanacontrib.security.linkedin/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
